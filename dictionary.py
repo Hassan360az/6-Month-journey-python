@@ -27,21 +27,22 @@
 # print (thisdict)
 
 
-x = print(input("want to clear your data:\n"))
+# x = print(input("want to clear your data:\n"))
 
-user_data = {
-    "name": "ali",
-    "age": "20"
-}
+# user_data = {
+#     "name": "ali",
+#     "age": "20"
+# }
 
-cop_data = user_data.copy()
-print (cop_data)
+# cop_data = user_data.copy()
+# print (cop_data)
 
-if x == "yes":
-    print(user_data.clear())
-elif x == "no":
-    print(user_data)
+# if x == "yes":
+#     print(user_data.clear())
+# elif x == "no":
+#     print(user_data)
 
-for x in user_data.values():
-    print(x)
+# for x in user_data.values():
+#     print(x)
+
 
