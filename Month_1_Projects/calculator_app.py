@@ -1,4 +1,4 @@
-print ("select an operation to perform calculation")
+print ("Select an operation to perform calculation")
 
 choice = int(input ("Enter your choice: \n 1: Addition 2: Subtraction 3: Multipilication 4: Division \n"))
 

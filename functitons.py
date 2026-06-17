@@ -8,3 +8,4 @@ print(my_return)
 
 x = lambda a : a + 20
 print(x(10))
+
