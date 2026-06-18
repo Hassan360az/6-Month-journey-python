@@ -46,3 +46,18 @@
 #     print(x)
 
 
+new_dic = {
+    "color": "red",
+    "fruit": "apple"
+}
+
+for x, value in new_dic.items():
+    print (x, ":", value)
+
+    contacts = {}
+
+contacts['Ali'] = '0300-1234567'
+contacts['Sara'] = '0301-7654321'
+
+for name, phone in contacts.items():
+    print(name, "->", phone)
