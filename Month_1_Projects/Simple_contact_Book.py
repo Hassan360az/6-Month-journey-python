@@ -18,7 +18,6 @@ def add_contact ():
 def all_contacts ():
     if len(contacts) == 0:
         print("Contact Book is empty")
-
     print("=== All Contacts ===")
     for name, info in contacts.items():
         print("Name:" , name)
@@ -34,8 +33,6 @@ while True:
     if user_choice == 1:
         add_contact()
         print("Contact added Successfully!\n")
-    elif user_choice == 4:
-        all_contacts()
 
     elif user_choice == 5:
         print("Thanks for using the Contact Booking System")
