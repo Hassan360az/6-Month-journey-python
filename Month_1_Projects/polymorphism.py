@@ -16,3 +16,5 @@ members_list = [Instruction(), User1(), User2()]
 
 for members in members_list:
     members.call_them()
+
+    
