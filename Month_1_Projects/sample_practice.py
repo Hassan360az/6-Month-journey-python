@@ -1,19 +1,16 @@
-class Employee:
-    def __init__(self):
-        self.__salary = 50000  # Private attribute
+class CreditCardPayment:
+    def pay(self, amount):
+        print(f"Charging Rs.{amount} to credit card.")
 
-    def get_salary(self):    # Getter method
-        return self.__salary
+class EasypaisaPayment:
+    def pay(self, amount):
+        print(f"Sending Rs.{amount} via Easypaisa.")
 
-    def set_salary(self, amount):   # Setter method
-        if amount > 0:
-            self.__salary = amount
-        else:
-            print("Invalid salary amount!")
+class BankTransferPayment:
+    def pay(self, amount):
+        print(f"Transferring Rs.{amount} via bank.")
 
-ali = Employee()
-print(ali.get_salary())  # Access salary using getter
+payment_methods = [CreditCardPayment(), EasypaisaPayment(), BankTransferPayment()]
 
-ali.set_salary(60000)   # Update salary using setter
-print(ali.get_salary())
-
+for method in payment_methods:
+    method.pay(1000)
