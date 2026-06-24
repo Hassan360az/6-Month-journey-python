@@ -1,0 +1,11 @@
+class Invalid_Number_Error(Exception):
+    def number(a , b):
+        try:
+            if a > b:
+                raise Invalid_Number_Error("Number is Invalid!")
+        except Invalid_Number_Error as e:
+            print(e)
+
+Invalid_Number_Error.number(300, 200)
+        
+        

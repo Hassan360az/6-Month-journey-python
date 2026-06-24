@@ -46,12 +46,12 @@
 #     print(x)
 
 
-new_dic = {
+new_dictionary = {
     "color": "red",
     "fruit": "apple"
 }
 
-for x, value in new_dic.items():
+for x, value in new_dictionary.items():
     print (x, ":", value)
 
     contacts = {}
