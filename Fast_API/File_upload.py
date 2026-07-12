@@ -7,3 +7,4 @@ def upload (file: UploadFile):
     return {
         "File_Name": file.filename
     }
+    
