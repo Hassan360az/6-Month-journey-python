@@ -22,7 +22,7 @@ db = SessionLocal()
 
 user = User(
     name="Hassan",
-    is_active=True
+    is_active=False
 )
 
 db.add(user) 
@@ -30,3 +30,5 @@ db.commit()
 db.refresh(user)
 print(user.name)
 db.close()
+first_user = db.query(User).first()
+print (first_user)
